@@ -1,0 +1,343 @@
+DEBUG - 2026-03-16 07:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 07:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-16 09:24:17 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #173, true, 121)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(65): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 09:24:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 09:24:17 --> 220 smtp.gmail.com ESMTP d9443c01a7336-2aece62d0easm117314065ad.39 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [112.215.170.197]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2026-03-16 09:33:16 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #173, true, 121)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(65): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 09:33:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 09:33:16 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-35a02ffe078sm15043095a91.13 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [140.213.13.86]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+CRITICAL - 2026-03-16 09:42:00 --> TypeError: fsockopen(): Argument #2 ($port) must be of type int, string given
+[Method: CLI, Route: stock:send-alerts]
+in SYSTEMPATH\Email\Email.php on line 1910.
+ 1 SYSTEMPATH\Email\Email.php(1910): fsockopen('ssl://smtp.gmail.com', '465', null, null, 10)
+ 2 SYSTEMPATH\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+ 3 SYSTEMPATH\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+ 4 SYSTEMPATH\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+ 5 APPPATH\Commands\StockAlert.php(59): CodeIgniter\Email\Email->send()
+ 6 SYSTEMPATH\CLI\Commands.php(74): App\Commands\StockAlert->run([])
+ 7 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-alerts', [])
+ 8 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 9 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+10 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-03-16 09:44:56 --> ErrorException: Cannot use int as default value for property Config\Email::$SMTPPort of type string
+[Method: CLI, Route: stock:send-alerts]
+in APPPATH\Config\Email.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-03-16 09:50:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1910
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1910)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1910): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(59): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 09:50:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 09:50:10 --> 
+ERROR - 2026-03-16 09:56:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1910
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp\\htdocs...', 1910)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1910): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(59): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 09:56:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 09:56:57 --> 
+ERROR - 2026-03-16 09:59:10 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #173, true, 121)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(59): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 09:59:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 09:59:10 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-82a07241bbesm11709681b3a.10 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [112.215.65.144]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2026-03-16 10:02:28 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #173, true, 121)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(59): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 10:02:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 10:02:28 --> 220 smtp.gmail.com ESMTP d9443c01a7336-2aece56ccb1sm92132415ad.12 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [140.213.2.85]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+CRITICAL - 2026-03-16 10:05:24 --> Error: Call to undefined method CodeIgniter\Email\Email::setSMTPOptions()
+[Method: CLI, Route: stock:send-alerts]
+in APPPATH\Commands\StockAlert.php on line 34.
+ 1 SYSTEMPATH\CLI\Commands.php(74): App\Commands\StockAlert->run([])
+ 2 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-alerts', [])
+ 3 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 4 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 5 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-03-16 10:07:08 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #173, true, 121)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(72): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 10:07:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 10:07:08 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-82a07340091sm11989498b3a.35 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [112.215.65.144]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2026-03-16 10:33:24 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1930
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1930)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1930): stream_socket_enable_crypto(Resource id #173, true, 121)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(68): CodeIgniter\Email\Email->send(false)
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 10:33:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 10:33:24 --> 220 smtp.gmail.com ESMTP d9443c01a7336-2aece8093casm91300225ad.61 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [140.213.2.85]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+ERROR - 2026-03-16 10:34:37 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known.  in C:\xampp\htdocs\ga-inventory\system\Email\Email.php:1910
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1910)
+#1 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1910): fsockopen('ssl://ssl://smt...', 465, NULL, NULL, 10)
+#2 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1823): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1708): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\ga-inventory\system\Email\Email.php(1602): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\ga-inventory\app\Commands\StockAlert.php(68): CodeIgniter\Email\Email->send(false)
+#6 C:\xampp\htdocs\ga-inventory\system\CLI\Commands.php(74): App\Commands\StockAlert->run(Array)
+#7 C:\xampp\htdocs\ga-inventory\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-aler...', Array)
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ga-inventory\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ga-inventory\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+ERROR - 2026-03-16 10:34:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-03-16 10:34:37 --> 
+ERROR - 2026-03-16 11:07:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'item_name'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'category'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_category'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'size'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'brand'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'color'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'item_condition'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'unit_price'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'unit_price'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                    item_name, category, sub_category, gender, size, 
+                    brand, color, item_condition, stok_depan, stok_belakang, 
+                    min_stok, unit_price,
+                    ((stok_depan + stok_belakang) * unit_price) as total_stock_value
+                FROM items 
+                WHERE stok_depan < min_stok 
+                   OR stok_belakang < min_stok')
+ 2 APPPATH\Commands\StockAlert.php(28): CodeIgniter\Database\BaseConnection->query('SELECT 
+                    item_name, category, sub_category, gender, size, 
+                    brand, color, item_condition, stok_depan, stok_belakang, 
+                    min_stok, unit_price,
+                    ((stok_depan + stok_belakang) * unit_price) as total_stock_value
+                FROM items 
+                WHERE stok_depan < min_stok 
+                   OR stok_belakang < min_stok')
+ 3 SYSTEMPATH\CLI\Commands.php(74): App\Commands\StockAlert->run([])
+ 4 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-alerts', [])
+ 5 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 6 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 7 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-03-16 11:07:20 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'item_name'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'category'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_category'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'size'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'brand'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'color'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'item_condition'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'unit_price'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'unit_price'. SQLSTATE: 42S22, code: 207
+[Method: CLI, Route: stock:send-alerts]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 APPPATH\Commands\StockAlert.php(28): CodeIgniter\Database\BaseConnection->query('SELECT 
+                    item_name, category, sub_category, gender, size, 
+                    brand, color, item_condition, stok_depan, stok_belakang, 
+                    min_stok, unit_price,
+                    ((stok_depan + stok_belakang) * unit_price) as total_stock_value
+                FROM items 
+                WHERE stok_depan < min_stok 
+                   OR stok_belakang < min_stok')
+ 2 SYSTEMPATH\CLI\Commands.php(74): App\Commands\StockAlert->run([])
+ 3 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-alerts', [])
+ 4 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-03-16 11:07:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'item_name'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'category'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_category'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'size'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'brand'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'color'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'item_condition'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'unit_price'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'unit_price'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT 
+                    item_name, category, sub_category, gender, size, 
+                    brand, color, item_condition, stok_depan, stok_belakang, 
+                    min_stok, unit_price,
+                    ((stok_depan + stok_belakang) * unit_price) as total_stock_value
+                FROM items 
+                WHERE stok_depan < min_stok 
+                   OR stok_belakang < min_stok')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                    item_name, category, sub_category, gender, size, 
+                    brand, color, item_condition, stok_depan, stok_belakang, 
+                    min_stok, unit_price,
+                    ((stok_depan + stok_belakang) * unit_price) as total_stock_value
+                FROM items 
+                WHERE stok_depan < min_stok 
+                   OR stok_belakang < min_stok')
+ 3 APPPATH\Commands\StockAlert.php(28): CodeIgniter\Database\BaseConnection->query('SELECT 
+                    item_name, category, sub_category, gender, size, 
+                    brand, color, item_condition, stok_depan, stok_belakang, 
+                    min_stok, unit_price,
+                    ((stok_depan + stok_belakang) * unit_price) as total_stock_value
+                FROM items 
+                WHERE stok_depan < min_stok 
+                   OR stok_belakang < min_stok')
+ 4 SYSTEMPATH\CLI\Commands.php(74): App\Commands\StockAlert->run([])
+ 5 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('stock:send-alerts', [])
+ 6 SYSTEMPATH\Boot.php(442): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+DEBUG - 2026-03-16 15:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-16 15:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

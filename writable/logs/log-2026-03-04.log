@@ -1,0 +1,1068 @@
+DEBUG - 2026-03-04 07:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 07:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-04 07:59:42 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061 in C:\xampp\htdocs\ga-inventory\system\Database\SQLSRV\Connection.php:145
+Stack trace:
+#0 C:\xampp\htdocs\ga-inventory\system\Database\BaseConnection.php(419): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ga-inventory\system\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ga-inventory\system\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ga-inventory\app\Controllers\Authentication.php(21): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ga-inventory\system\CodeIgniter.php(951): App\Controllers\Authentication->loginProcess()
+#5 C:\xampp\htdocs\ga-inventory\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+#6 C:\xampp\htdocs\ga-inventory\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ga-inventory\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ga-inventory\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\ga-inventory\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2026-03-04 07:59:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: No connection could be made because the target machine actively refused it.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 10061
+[Method: POST, Route: authentication/loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(654): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."users"
+WHERE "username" = :username:', [...], false)
+ 3 APPPATH\Controllers\Authentication.php(21): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Authentication->loginProcess()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 08:11:58 --> ErrorException: Undefined variable $merks
+[Method: GET, Route: inventory/add]
+in APPPATH\Views\add_item.php on line 113.
+ 1 APPPATH\Views\add_item.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merks', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\add_item.php', 113)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\add_item.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('add_item', [], true)
+ 5 APPPATH\Controllers\Inventory.php(102): view('add_item', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 08:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 08:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-04 09:04:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 09:04:40 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 09:04:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 09:04:40 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 09:04:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 09:04:40 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 09:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-04 09:11:26 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\Inventory.php on line 162.
+ 1 APPPATH\Controllers\Inventory.php(162): trim(null)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 09:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 09:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 09:54:56 --> Error: Class "App\Controllers\LogKaryawanModel" not found
+[Method: GET, Route: inventory/export_excel_log]
+in APPPATH\Controllers\Inventory.php on line 925.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-04 09:57:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 09:57:53 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/export_excel_log]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 2 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 09:57:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 4 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-04 10:00:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:10 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/export_excel_log]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 2 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 4 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-04 10:00:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:13 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/export_excel_log]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 2 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 4 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-04 10:00:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 3 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:14 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/export_excel_log]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 2 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'created_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."log_karyawan"
+ORDER BY "created_at" DESC', [], false)
+ 4 SYSTEMPATH\Model.php(254): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Inventory.php(927): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:52 --> ErrorException: Undefined array key "merk"
+[Method: GET, Route: inventory/export_excel_log]
+in APPPATH\Controllers\Inventory.php on line 959.
+ 1 APPPATH\Controllers\Inventory.php(959): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "merk"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Controllers\\Inventory.php', 959)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:54 --> ErrorException: Undefined array key "merk"
+[Method: GET, Route: inventory/export_excel_log]
+in APPPATH\Controllers\Inventory.php on line 959.
+ 1 APPPATH\Controllers\Inventory.php(959): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "merk"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Controllers\\Inventory.php', 959)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:00:59 --> ErrorException: Undefined array key "merk"
+[Method: GET, Route: inventory/export_excel_log]
+in APPPATH\Controllers\Inventory.php on line 959.
+ 1 APPPATH\Controllers\Inventory.php(959): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "merk"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Controllers\\Inventory.php', 959)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:01:29 --> ErrorException: Undefined array key "merk"
+[Method: GET, Route: inventory/export_excel_log]
+in APPPATH\Controllers\Inventory.php on line 959.
+ 1 APPPATH\Controllers\Inventory.php(959): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "merk"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Controllers\\Inventory.php', 959)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->export_excel_log()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 10:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 10:41:10 --> ErrorException: Undefined array key "status_peminjaman"
+[Method: GET, Route: inventory/view_log_karyawan]
+in APPPATH\Views\inventory\log_karyawan_view.php on line 75.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_peminjaman"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php', 75)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(759): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:42:18 --> ErrorException: Undefined array key "npk"
+[Method: GET, Route: inventory/view_log_karyawan]
+in APPPATH\Views\inventory\log_karyawan_view.php on line 82.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "npk"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php', 82)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(756): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 10:44:31 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: inventory/view_log_karyawan]
+in APPPATH\Views\inventory\log_karyawan_view.php on line 85.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php', 85)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(770): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 10:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 10:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-04 11:29:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 11:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-04 11:29:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."stock_logs"
+ORDER BY "tanggal_ambil" DESC')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."stock_logs"
+ORDER BY "tanggal_ambil" DESC', [], false)
+ 3 APPPATH\Controllers\Inventory.php(727): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->history()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 11:29:06 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/history]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."stock_logs"
+ORDER BY "tanggal_ambil" DESC', [], false)
+ 2 APPPATH\Controllers\Inventory.php(727): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->history()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 11:29:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."stock_logs"
+ORDER BY "tanggal_ambil" DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."stock_logs"
+ORDER BY "tanggal_ambil" DESC')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."stock_logs"
+ORDER BY "tanggal_ambil" DESC', [], false)
+ 4 APPPATH\Controllers\Inventory.php(727): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->history()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 11:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-04 11:29:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:40 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:40 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:40 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-04 11:29:40 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 11:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-04 11:44:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'item_id', table 'GA_Inventory.dbo.stock_logs'; column does not allow nulls. INSERT fails. SQLSTATE: 23000, code: 515
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. SQLSTATE: 01000, code: 3621
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_name","action_type","quantity","user_name","keterangan","created_at") VALUES (\'Susu Diamond 1l\', \'Edit Data\', 0, \'Super Admin ()\', \'Update Detail: Susu Diamond 1l (Min Stok: 10)\', \'2026-03-04 11:44:36\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_name","action_type","quantity","user_name","keterangan","created_at") VALUES (:item_name:, :action_type:, :quantity:, :user_name:, :keterangan:, :created_at:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(828): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->update('16')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 11:44:36 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'item_id', table 'GA_Inventory.dbo.stock_logs'; column does not allow nulls. INSERT fails. SQLSTATE: 23000, code: 515
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. SQLSTATE: 01000, code: 3621
+[Method: POST, Route: inventory/update/16]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_name","action_type","quantity","user_name","keterangan","created_at") VALUES (:item_name:, :action_type:, :quantity:, :user_name:, :keterangan:, :created_at:)', [...], false)
+ 2 APPPATH\Controllers\Inventory.php(828): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->update('16')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 11:44:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'item_id', table 'GA_Inventory.dbo.stock_logs'; column does not allow nulls. INSERT fails. SQLSTATE: 23000, code: 515
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. SQLSTATE: 01000, code: 3621
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_name","action_type","quantity","user_name","keterangan","created_at") VALUES (\'Susu Diamond 1l\', \'Edit Data\', 0, \'Super Admin ()\', \'Update Detail: Susu Diamond 1l (Min Stok: 10)\', \'2026-03-04 11:44:36\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_name","action_type","quantity","user_name","keterangan","created_at") VALUES (\'Susu Diamond 1l\', \'Edit Data\', 0, \'Super Admin ()\', \'Update Detail: Susu Diamond 1l (Min Stok: 10)\', \'2026-03-04 11:44:36\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_name","action_type","quantity","user_name","keterangan","created_at") VALUES (:item_name:, :action_type:, :quantity:, :user_name:, :keterangan:, :created_at:)', [...], false)
+ 4 APPPATH\Controllers\Inventory.php(828): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->update('16')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 11:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 11:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 13:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-04 14:24:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'1\', \'Kemeja Kerja\', \'Keluar\', 15, NULL, NULL, \'LJK4276\', \'::1\', \'Mutasi Internal: Gudang Depan\', \'2026-03-04 14:24:12\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(905): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(427): App\Controllers\Inventory->log_movement('1', 'Kemeja Kerja', 'Keluar', 15, 'Mutasi Internal: Gudang Depan')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:35:23 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 14:35:23 --> [Caused by] ErrorException: Undefined variable $transfers_month
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 APPPATH\Views\inventory\dashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transfers_month', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:35:42 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 14:35:42 --> [Caused by] ErrorException: Undefined variable $transfers_month
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 APPPATH\Views\inventory\dashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transfers_month', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:38:55 --> ErrorException: Undefined variable $role
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 23.
+ 1 APPPATH\Views\inventory\dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 23)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:39:43 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 14:39:43 --> [Caused by] ErrorException: Undefined variable $transfers_month
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 APPPATH\Views\inventory\dashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transfers_month', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:40:00 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 14:40:00 --> [Caused by] ErrorException: Undefined variable $transfers_month
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 APPPATH\Views\inventory\dashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transfers_month', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:40:15 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 14:40:15 --> [Caused by] ErrorException: Undefined variable $transfers_month
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 APPPATH\Views\inventory\dashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transfers_month', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 14:40:28 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 SYSTEMPATH\View\View.php(238): include()
+ 2 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-04 14:40:28 --> [Caused by] ErrorException: Undefined variable $transfers_month
+in APPPATH\Views\inventory\dashboard.php on line 130.
+ 1 APPPATH\Views\inventory\dashboard.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transfers_month', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 130)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 15:01:26 --> ErrorException: Undefined variable $role
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 29.
+ 1 APPPATH\Views\inventory\dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 29)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 15:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-04 15:33:43 --> ErrorException: Undefined array key "month_name"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 206.
+ 1 APPPATH\Views\inventory\dashboard.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "month_name"', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 206)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(160): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-04 15:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-04 15:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

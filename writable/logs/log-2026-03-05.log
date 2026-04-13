@@ -1,0 +1,1571 @@
+DEBUG - 2026-03-05 07:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 07:10:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:13 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 07:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 07:10:20 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:20 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:20 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:20 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:20 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:20 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 07:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 07:10:54 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:54 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:54 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dispenser\index.php on line 38.
+ 1 APPPATH\Views\dispenser\index.php(38): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 07:10:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 07:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 07:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:17:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:17:53\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(905): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(427): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:18:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:18:23\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(905): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(427): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:28:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:28:37\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(905): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(427): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:32:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:32:00\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(905): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(427): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:49:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:49:50\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(905): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(427): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:51:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:51:29\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(907): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(429): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 08:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 08:55:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 08:55:06\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(915): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(435): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 08:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:03:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:03:09\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(926): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(447): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:04:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'stok_aktual'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GA_Inventory"."dbo"."inventory" SET "stok_depan" = 9, "stok_aktual" = 9
+WHERE "id" = \'12\'')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."inventory" SET "stok_depan" = :stok_depan:, "stok_aktual" = :stok_aktual:
+WHERE "id" = :id:', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(382): CodeIgniter\Database\BaseBuilder->update([...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 09:04:28 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'stok_aktual'. SQLSTATE: 42S22, code: 207
+[Method: POST, Route: inventory/process_unified_basket]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."inventory" SET "stok_depan" = :stok_depan:, "stok_aktual" = :stok_aktual:
+WHERE "id" = :id:', [...], false)
+ 2 APPPATH\Controllers\Inventory.php(382): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 09:04:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'stok_aktual'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('UPDATE "GA_Inventory"."dbo"."inventory" SET "stok_depan" = 9, "stok_aktual" = 9
+WHERE "id" = \'12\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GA_Inventory"."dbo"."inventory" SET "stok_depan" = 9, "stok_aktual" = 9
+WHERE "id" = \'12\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."inventory" SET "stok_depan" = :stok_depan:, "stok_aktual" = :stok_aktual:
+WHERE "id" = :id:', [...], false)
+ 4 APPPATH\Controllers\Inventory.php(382): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 09:07:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(739): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 09:07:47 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(739): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 09:12:30 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(739): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 09:21:56 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(767): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:22:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:22:06\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(911): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(432): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:23:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:23:45\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(918): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(437): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:29:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:29:10\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(910): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(431): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:29:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:29:21\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(910): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(431): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:38:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:38:12\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(910): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(431): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:45:39 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:45:39\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(910): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(431): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 09:45:41 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(766): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:46:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:46:00\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(910): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(431): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:48:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:48:36\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(921): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(442): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 09:48:58 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(777): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:49:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:49:11\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(921): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(442): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 09:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 09:49:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 09:49:48\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(921): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(442): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 09:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:01:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:01:27\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(934): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(439): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:08:45 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(790): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:10:44 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(790): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:12:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:12:00\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(934): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(439): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:14:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:14:50\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(934): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(439): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:14:53 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(790): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:15:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:15:09\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(934): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(439): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:18:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:18:15\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(941): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(446): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:20:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:20:01\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(941): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(446): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 10:20:01 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+[Method: POST, Route: inventory/process_unified_basket]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 2 APPPATH\Controllers\Inventory.php(941): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Inventory.php(446): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 10:20:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:20:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:20:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 4 APPPATH\Controllers\Inventory.php(941): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Inventory.php(446): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:29:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 123\', \'2026-03-05 10:29:31\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(943): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(448): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 123')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:29:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 2024001\', \'2026-03-05 10:29:44\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(943): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(448): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 2024001')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-03-05 10:30:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tanggal_ambil'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (\'12\', \'Pompa Gas\', \'Keluar\', 1, NULL, NULL, \'admin_depan\', \'::1\', \'Distribusi ke NPK 2024001\', \'2026-03-05 10:30:51\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "GA_Inventory"."dbo"."stock_logs" ("item_id","item_name","action_type","quantity","npk_admin","nama_admin","user_name","ip_address","keterangan","tanggal_ambil") VALUES (:item_id:, :item_name:, :action_type:, :quantity:, :npk_admin:, :nama_admin:, :user_name:, :ip_address:, :keterangan:, :tanggal_ambil:)', [...], false)
+ 3 APPPATH\Controllers\Inventory.php(950): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\Inventory.php(448): App\Controllers\Inventory->log_movement('12', 'Pompa Gas', 'Keluar', 1, 'Distribusi ke NPK 2024001')
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->process_unified_basket()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:35:38 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:38:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 10:38:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 10:38:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:38:17 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:38:45 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 10:39:22 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 10:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 10:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:04:39 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:04:50 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Controllers\Inventory.php on line 731.
+ 1 APPPATH\Controllers\Inventory.php(731): strpos(null, 'Depan')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->reverse_transaction('38')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:04:50 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:05:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:05:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:05:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:11:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:11:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:11:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:12:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:12:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:12:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:52:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:52:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 11:52:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:53:07 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 11:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 11:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 11:53:22 --> [DEPRECATED] strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in APPPATH\Views\inventory\log_karyawan_view.php on line 101.
+ 1 APPPATH\Views\inventory\log_karyawan_view.php(101): strpos(null, 'Depan')
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\log_karyawan_view.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/log_karyawan_view', [], true)
+ 5 APPPATH\Controllers\Inventory.php(806): view('inventory/log_karyawan_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->view_log_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:18:02 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:18:02 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:18:02 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:21:56 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:21:56 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:21:56 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 49.
+ 1 APPPATH\Views\dispenser\index.php(49): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(12): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 13:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:29:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:29:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:29:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-05 13:29:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = \'Non-Aktif\', "updated_at" = \'2026-03-05 13:29:20\'
+WHERE "assets_dispenser"."id" IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = :status:, "updated_at" = :updated_at:
+WHERE "assets_dispenser"."id" IN :assets_dispenser.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 4 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 5 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 6 APPPATH\Controllers\Dispenser.php(56): CodeIgniter\Model->update('3', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->update_status('3', 'Non-Aktif')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 13:29:20 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: dispenser/update_status/3/Non-Aktif]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = :status:, "updated_at" = :updated_at:
+WHERE "assets_dispenser"."id" IN :assets_dispenser.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Dispenser.php(56): CodeIgniter\Model->update('3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->update_status('3', 'Non-Aktif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 13:29:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = \'Non-Aktif\', "updated_at" = \'2026-03-05 13:29:20\'
+WHERE "assets_dispenser"."id" IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = \'Non-Aktif\', "updated_at" = \'2026-03-05 13:29:20\'
+WHERE "assets_dispenser"."id" IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = :status:, "updated_at" = :updated_at:
+WHERE "assets_dispenser"."id" IN :assets_dispenser.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Dispenser.php(56): CodeIgniter\Model->update('3', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->update_status('3', 'Non-Aktif')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-03-05 13:37:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = \'Non-Aktif\', "updated_at" = \'2026-03-05 13:37:03\'
+WHERE "assets_dispenser"."id" IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = :status:, "updated_at" = :updated_at:
+WHERE "assets_dispenser"."id" IN :assets_dispenser.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 4 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 5 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 6 APPPATH\Controllers\Dispenser.php(56): CodeIgniter\Model->update('3', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->update_status('3', 'Non-Aktif')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 13:37:03 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: dispenser/update_status/3/Non-Aktif]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = :status:, "updated_at" = :updated_at:
+WHERE "assets_dispenser"."id" IN :assets_dispenser.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Dispenser.php(56): CodeIgniter\Model->update('3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->update_status('3', 'Non-Aktif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-03-05 13:37:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'updated_at'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = \'Non-Aktif\', "updated_at" = \'2026-03-05 13:37:03\'
+WHERE "assets_dispenser"."id" IN (\'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = \'Non-Aktif\', "updated_at" = \'2026-03-05 13:37:03\'
+WHERE "assets_dispenser"."id" IN (\'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE "GA_Inventory"."dbo"."assets_dispenser" SET "status" = :status:, "updated_at" = :updated_at:
+WHERE "assets_dispenser"."id" IN :assets_dispenser.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Dispenser.php(56): CodeIgniter\Model->update('3', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->update_status('3', 'Non-Aktif')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 13:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:38:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:38:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:38:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-05 13:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:38:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:38:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:38:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:38:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:38:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:38:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-03-05 13:41:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:41:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-03-05 13:41:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 55.
+ 1 APPPATH\Views\dispenser\index.php(55): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(13): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-03-05 13:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

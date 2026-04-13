@@ -1,0 +1,2453 @@
+DEBUG - 2026-02-26 07:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 07:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:23 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:25 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:27 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:29 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:31 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam TTLT\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:38 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam TTLT\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam TTLT\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:37:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Susu Ultra \'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:57 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:37:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Susu Ultra \'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Susu Ultra \'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 08:39:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:39:51 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 08:39:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'3XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(205): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 08:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 08:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:07 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:14 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:14 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:15 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:15 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:17 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Hitam\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:21 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Hitam\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Hitam\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Putih\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:22 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Putih\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Putih\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:04:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:57 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:04:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:05:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:00 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:05:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:01 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:05:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:03 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 09:05:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Putih\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:05 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: inventory/get_min_stock]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 09:05:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'sub_kategori'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Putih\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = \'Seragam\'
+AND "kategori" = \'Seragam\'
+AND "sub_kategori" = \'Baju Kerja\'
+AND "status_seragam" = \'Kartap\'
+AND "gender" = \'Pria\'
+AND "ukuran" = \'XL\'
+AND "warna" = \'Putih\'
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(656): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "GA_Inventory"."dbo"."items"
+WHERE "nama_barang" = :nama_barang:
+AND "kategori" = :kategori:
+AND "sub_kategori" = :sub_kategori:
+AND "status_seragam" = :status_seragam:
+AND "gender" = :gender:
+AND "ukuran" = :ukuran:
+AND "warna" = :warna:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 SYSTEMPATH\Model.php(296): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Inventory.php(219): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->get_min_stock()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 09:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 09:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 10:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-26 10:55:29 --> ErrorException: Undefined variable $total_dispenser_aktif
+[Method: GET, Route: dashboard]
+in APPPATH\Views\inventory\dashboard.php on line 166.
+ 1 APPPATH\Views\inventory\dashboard.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_dispenser_aktif', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 166)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(131): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 10:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-26 10:56:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'GA_Inventory.dbo.assets_dispenser'. SQLSTATE: 42S02, code: 208
+in SYSTEMPATH\Database\BaseConnection.php on line 769.
+ 1 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS "numrows"
+FROM "GA_Inventory"."dbo"."assets_dispenser"
+WHERE "status" = \'Aktif\'')
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS "numrows"
+FROM "GA_Inventory"."dbo"."assets_dispenser"
+WHERE "status" = :status:', [...], false)
+ 3 APPPATH\Controllers\Dashboard.php(99): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 10:56:54 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'GA_Inventory.dbo.assets_dispenser'. SQLSTATE: 42S02, code: 208
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS "numrows"
+FROM "GA_Inventory"."dbo"."assets_dispenser"
+WHERE "status" = :status:', [...], false)
+ 2 APPPATH\Controllers\Dashboard.php(99): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-26 10:56:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'GA_Inventory.dbo.assets_dispenser'. SQLSTATE: 42S02, code: 208
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT COUNT(*) AS "numrows"
+FROM "GA_Inventory"."dbo"."assets_dispenser"
+WHERE "status" = \'Aktif\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS "numrows"
+FROM "GA_Inventory"."dbo"."assets_dispenser"
+WHERE "status" = \'Aktif\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS "numrows"
+FROM "GA_Inventory"."dbo"."assets_dispenser"
+WHERE "status" = :status:', [...], false)
+ 4 APPPATH\Controllers\Dashboard.php(99): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 10:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 11:09:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:09:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:09:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 11:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 11:26:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:26:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:26:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 11:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 11:27:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:27:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:27:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 11:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 11:43:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:43:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:43:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 11:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 11:43:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:43:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 11:43:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 11:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 11:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-26 13:42:40 --> ErrorException: Undefined variable $low_stock_list
+[Method: GET, Route: inventory]
+in APPPATH\Views\inventory\dashboard.php on line 104.
+ 1 APPPATH\Views\inventory\dashboard.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $low_stock_list', 'C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php', 104)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\inventory\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('inventory/dashboard', [], true)
+ 5 APPPATH\Controllers\Inventory.php(88): view('inventory/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Inventory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 13:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 13:49:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 13:49:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 13:49:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 13:52:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 13:52:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 13:52:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 13:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 13:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 14:07:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 14:07:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 14:07:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 14:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 14:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 15:32:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 15:32:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 15:32:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 15:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 15:33:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 15:33:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 15:33:10 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 15:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-26 15:35:03 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 15:35:03 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-02-26 15:35:03 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\dispenser\index.php on line 31.
+ 1 APPPATH\Views\dispenser\index.php(31): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\ga-inventory\\app\\Views\\dispenser\\index.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dispenser/index', [], true)
+ 5 APPPATH\Controllers\Dispenser.php(11): view('dispenser/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Dispenser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dispenser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-26 15:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-26 15:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
