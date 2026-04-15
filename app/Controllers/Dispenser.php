@@ -15,22 +15,26 @@ class Dispenser extends BaseController {
 
     public function save() {
         $model = new DispenserModel();
+        
+        $rawBiaya = $this->request->getPost('biaya_sewa_per_bulan');
+        $cleanBiaya = preg_replace('/[^0-9]/', '', $rawBiaya);
+
         $data = [
-            'serial_number' => $this->request->getPost('serial_number'),
-            'vendor'        => $this->request->getPost('vendor'),
-            'tgl_mulai'     => $this->request->getPost('tgl_mulai'),
-            'tgl_berakhir'  => $this->request->getPost('tgl_berakhir'),
-            'lokasi'        => $this->request->getPost('lokasi'),
-            'status'        => 'Aktif' 
+            'serial_number'        => $this->request->getPost('serial_number'),
+            'vendor'               => $this->request->getPost('vendor'),
+            'tgl_mulai'            => $this->request->getPost('tgl_mulai'),
+            'tgl_berakhir'         => $this->request->getPost('tgl_berakhir'),
+            'lokasi'               => $this->request->getPost('lokasi'),
+            'biaya_sewa_per_bulan' => $cleanBiaya, 
+            'status'               => 'Aktif' 
         ];
 
         if ($model->save($data)) {
             return redirect()->to('dispenser')->with('msg', 'Dispenser baru berhasil diregistrasi.');
         }
         return redirect()->back()->with('msg', 'Gagal menyimpan data dispenser.');
-    }
+    } 
 
-    // 2. Updated Status Logic (Now includes 'Sedang Diperbaiki')
     public function update_status($id, $status) {
         $model = new DispenserModel();
         $dispenser = $model->find($id);
@@ -39,7 +43,6 @@ class Dispenser extends BaseController {
             return redirect()->to('dispenser')->with('msg', 'Data tidak ditemukan.');
         }
 
-        // Logic: Force Non-Aktif if expired
         $today = date('Y-m-d');
         if ($dispenser['tgl_berakhir'] < $today) {
             $status = 'Non-Aktif';
@@ -48,7 +51,6 @@ class Dispenser extends BaseController {
             $finalMsg = "Status dispenser berhasil diubah menjadi $status.";
         }
 
-        // Expanded Whitelist to include our new status
         if (!in_array($status, ['Aktif', 'Non-Aktif', 'Service', 'Sedang Diperbaiki'])) {
             return redirect()->to('dispenser')->with('msg', 'Status tidak valid.');
         }
@@ -60,15 +62,11 @@ class Dispenser extends BaseController {
         return redirect()->back()->with('msg', 'Gagal memperbarui status.');
     }
 
-    // 3. Updated Repair Action
     public function send_to_service($id) {
         $model = new DispenserModel();
-        
-        // When button is pressed, status flips to 'Sedang Diperbaiki'
         if ($model->update($id, ['status' => 'Sedang Diperbaiki'])) {
             return redirect()->to('dispenser')->with('msg', 'Unit telah dikirim. Status: Sedang Diperbaiki.');
         }
-
         return redirect()->back()->with('msg', 'Gagal memproses perbaikan.');
     }
 
@@ -79,4 +77,4 @@ class Dispenser extends BaseController {
         }
         return redirect()->back()->with('msg', 'Gagal menghapus data.');
     }
-}
+} 
