@@ -54,7 +54,7 @@ class StockAlert extends BaseCommand
         $apiUrl = 'https://portal2.incoe.astra.co.id/vendor_rating_infor/api/send_email_text';
         
         $postData = [
-            'to'      => 'qinjiwei5@gmail.com', // Update this to the superior's email
+            'to'      => 'dwi.purwanto@incoe.astra.co.id','suparni@incoe.astra.co.id', 'larisa.kurniawan@incoe.astra.co.id', // Update this to the email
             'subject' => '[ALERT] Inventory Below Minimum (Depan/Belakang)',
             'message' => $message,
             'from'    => 'inventory.system@incoe.astra.co.id'
